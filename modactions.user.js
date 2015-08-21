@@ -41,7 +41,6 @@ $("body").on("DOMNodeInserted", function(e) {
     var target = e.target;
     if($(target).hasClass("popup") && $(target).children("#tab-actions").length > 0) {
         $("span.action-name").each(function(index, elem) {
-            console.log("changing");
             $(this).attr("title", $(this).text());
             $(this).html(selectText());
         });
