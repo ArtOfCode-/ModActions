@@ -27,7 +27,7 @@ var ACTIONS = [
     "show bad things",
     "summon roman gods",
     "burn with fire",
-    "send to Jail",
+    "send to jail",
     "bring unicorns",
     "Mjolnir"
 ];
